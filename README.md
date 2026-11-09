@@ -6,17 +6,50 @@
   </picture>
 </p>
 
-# Nplet Plugin
+# An Agile-based framework and application for agent-driven work.
 
-The Nplet Plugin is the proof of concept for developing and testing [Nplet's](https://github.com/npletai) agentic Agile framework.
+Nplet aims to give AI agents a prescribed process for planning, execution and retrospective learning. People set the direction and retain control of consequential decisions.
 
-## What's included
+The framework and its core technology are in early development. We are building and testing them together.
 
-- Published framework rules and organization definitions.
-- Role and profile templates, with worked examples.
-- Python tooling for shared local task workspaces, with integrations for Codex, Claude Code and Cursor.
+## The plugin
 
-The plugin is in early development. The full orchestration application is still to be built; coordinating agents across different runtimes remains a product goal.
+The Nplet plugin will bring the framework into your existing coding-agent workflow. It will help agents turn a desired outcome into a plan, carry out scoped work, independently review results and learn from each delivery.
+
+You’ll set the direction, approve plans and make consequential decisions. The plugin will coordinate the process and preserve context between sessions, keeping progress, blockers and decisions visible as work moves forward.
+
+The plugin is the first step toward the broader Nplet orchestration application.
+
+## What we are building
+
+Nplet has two connected parts:
+
+- **An agentic Agile framework.** An operating model for planning, coordinating, checking and improving work performed by agents.
+- **An orchestration application.** Software that will let people direct agents and coordinate their work through that framework.
+
+The initial proof of concept (POC) uses a plugin to develop and test the approach. What we learn will shape the framework and future application.
+
+## What we want to improve
+
+- **Control and visibility:** Help people understand what agents are doing, where work is blocked and which decisions need attention.
+- **Code quality:** Combine tightly scoped changes with clear acceptance criteria and independent checks.
+- **Incremental delivery:** Deliver useful changes sooner while accounting for quality, human effort, cost and reliability.
+
+These are goals for the POC. We still need evidence that the approach improves delivery against a fair comparison.
+
+## The workflow
+
+1. **Planning:** Turn a desired outcome into scoped work, dependencies and acceptance criteria. Establish what agents are authorized to do before execution.
+2. **Execution:** Coordinate that work, expose progress and blockers, and check the result independently. Bring decisions that require human judgment back to people.
+3. **Retrospective:** Review the outcome and the effort it required. Use what we learn to improve later work.
+
+For example, a feature moves from an agreed outcome to a bounded change, independent review and a retrospective that informs the next plan.
+
+## Current development
+
+This repository contains published framework rules, role and profile templates, worked examples, and Python tooling for shared local task workspaces.
+
+The workspace tooling includes integrations for Codex, Claude Code and Cursor. The complete orchestration application is still to be built. Coordinating agents across different runtimes remains a product goal.
 
 ## Contributor setup
 
@@ -28,7 +61,7 @@ The contributor guides cover macOS, Linux and native Windows. They describe the 
 
 Follow the [contributor workflow](docs/runtime/contributor-workflow.md) for repository changes. Submit changes through a pull request for human review.
 
-## Explore the plugin
+## Explore the project
 
 - [Organization and teams](src/nplet/resources/organization/team-map.md)
 - [Role and profile definitions](src/nplet/resources/templates/definition-format.md)
