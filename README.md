@@ -12,6 +12,14 @@ Nplet aims to give AI agents a prescribed process for planning, execution and re
 
 The framework and its core technology are in early development. We are building and testing them together.
 
+## The plugin
+
+The Nplet plugin will bring the framework into your existing coding-agent workflow. It will help agents turn a desired outcome into a plan, carry out scoped work, independently review results and learn from each delivery.
+
+You’ll set the direction, approve plans and make consequential decisions. The plugin will coordinate the process and preserve context between sessions, keeping progress, blockers and decisions visible as work moves forward.
+
+The plugin is the first step toward the broader Nplet orchestration application.
+
 ## What we are building
 
 Nplet has two connected parts:
